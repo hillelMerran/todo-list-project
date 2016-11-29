@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <hillel-todo-list-manager></hillel-todo-list-manager>
-    {{ title }} hello {{ 5*25 }}
+    {{ title }} hello {{ 5*25 - 5 }}
   `,
   styleUrls: ['./app.component.css']
 })
