@@ -20,6 +20,11 @@ import { TodoListService } from '../todo-list.service';
 export class ListManagerComponent implements OnInit {
   private title: string = 'My Todos!';
   private todoList = [];
+  list = [
+    {name: "Hello"},
+    {name: "World"},
+    {name: "opm"}
+    ];
   addItem(title:string) {
     this.todoList.push({title});
     console.log(title);
