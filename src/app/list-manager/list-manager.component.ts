@@ -12,6 +12,9 @@ import { TodoListService } from '../todo-list.service';
       <li *ngFor="let item of todoList">
         <hillel-todo-item [todoItem]="item"></hillel-todo-item>
       </li>
+      
+      <li *ngFor="let item of list">{{item.name}}</li>
+      
     </ul>
     <h1 *ngIf="userLoggedIn">Welcome!</h1>
   `,
