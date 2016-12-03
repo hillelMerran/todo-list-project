@@ -7,8 +7,6 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
     <button (click)="changeTitle(myInput.value)">
       Save
     </button>
-    
-    {{title}}
   `,
   styleUrls: ['./input.component.css']
 })
